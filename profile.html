@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/profile.css" />
+    <title>My profile</title>
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <div class="navigation">
+        <header>
+          <h1 class="logotype">Postagram</h1>
+          <i class="icon-plus hidden-desktop"></i>
+        </header>
+
+        <ul class="menu hidden-mobile">
+          <li>
+            <a href="index.html">
+              <i class="icon-home"></i>
+              <span>Home</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="explore.html">
+              <i class="icon-explore"></i>
+              <span>Explore</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="favorites.html">
+              <i class="icon-favorites"></i>
+              <span>Favorites</span>
+            </a>
+          </li>
+
+          <li class="profile">
+            <a href="profile.html" class="is-active">
+              <div class="profile-pic"></div>
+              <span>Profile</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper">
+        <header>
+          <h2 class="hidden-mobile">My profile</h2>
+        </header>
+
+        <main class="main">
+          <div class="form-container">
+            <form class="form">
+              <div>
+                <label for="firstname">Name</label>
+                <input
+                  type="text"
+                  id="firstname"
+                  placeholder="Lorem ipsum dolore"
+                />
+
+                <label for="lastname">Last name</label>
+                <input
+                  type="text"
+                  id="lastname"
+                  placeholder="Lorem ipsum dolore"
+                />
+
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Lorem ipsum dolore"
+                />
+
+                <label for="age">Age</label>
+                <input
+                  type="number"
+                  id="age"
+                  placeholder="Lorem ipsum dolore"
+                />
+              </div>
+
+              <div>
+                <label for="about">About me</label>
+                <textarea rows="6" id="about"></textarea>
+
+                <label for="gender">Gender</label>
+                <select id="gender">
+                  <option value="man">Man</option>
+                  <option value="woman">Woman</option>
+                  <option value="other">Other</option>
+                </select>
+
+                <button class="button">Submit</button>
+              </div>
+            </form>
+          </div>
+        </main>
+
+        <footer class="footer">
+          <ul class="menu">
+            <li>
+              <a href="index.html">
+                <i class="icon-home hidden-desktop"></i>
+                <span class="hidden-mobile">Home</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="explore.html">
+                <i class="icon-explore hidden-desktop"></i>
+                <span class="hidden-mobile">Explore</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="favorites.html">
+                <i class="icon-favorites hidden-desktop"></i>
+                <span class="hidden-mobile">Favorites</span>
+              </a>
+            </li>
+            <li class="profile">
+              <a href="profile.html" class="is-active">
+                <div class="profile-pic hidden-desktop"></div>
+                <span class="hidden-mobile">Profile</span>
+              </a>
+            </li>
+          </ul>
+
+          <p class="copyright hidden-mobile">2023 Postagram</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
